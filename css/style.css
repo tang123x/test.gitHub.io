@@ -1,0 +1,33 @@
+#x {
+    padding: 8px;
+    border-radius:12px;
+    color:rgb(238, 186, 66);
+    border:3px solid rgb(238, 186, 66);
+    -webkit-mask:
+      linear-gradient(#fff 0 0) bottom/var(--d,0%) 5px,
+      linear-gradient(#fff 0 0) center /calc(100% - 12px) calc(100% - 12px);
+    -webkit-mask-repeat:no-repeat;
+    transition: 0.5s;
+  }
+ #x:hover {
+    --d:100%;
+    color:rgb(180, 239, 42);
+  }
+  
+  .vintage{
+    color: rgb(238, 186, 66);
+    letter-spacing: 0;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135 }
+
+
+  .vintage4{
+    color: gold;
+    font-size:60px;
+    letter-spacing: 0;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135 }
+
+  .geo-style{
+    font:italic 1em Georgia, serif;
+    font-size:25px;
+    color:pink;
+  }
